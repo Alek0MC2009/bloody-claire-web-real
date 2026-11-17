@@ -53,6 +53,10 @@ body {
   overflow-x: hidden;
 }
 
+li::marker {
+  content: "* ";
+}
+
 body::after {
   content: "";
   position: fixed;
